@@ -79,3 +79,28 @@ body {
   color: var(--background-color);
   background-color: var(--primary-color);
 }
+
+@media screen and (max-width: 1200px) {
+  body {
+    align-content: space-evenly;
+  }
+
+  .image-container {
+    width: 85%;
+  }
+
+  #btn-refresh {
+    padding: 1rem 4rem;
+    font-size: 2.5rem;
+  }
+
+  #searchBox {
+    width: 25rem;
+    height: 5rem;
+    font-size: 2rem;
+  }
+
+  #btn-search {
+    padding: 0 2rem;
+  }
+}
